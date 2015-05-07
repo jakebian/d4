@@ -1,0 +1,9 @@
+(function (root, factory) {
+    if (typeof define === 'function' && define.amd) {
+        // AMD globals
+        define([], factory);
+    } else {
+        // Browser globals
+        root.d4 = factory();
+    }
+}(this, function () {

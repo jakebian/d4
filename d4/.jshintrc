@@ -1,0 +1,17 @@
+{
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "eqnull": true,
+    "browser": true,
+    "nomen": true,
+    "globals": {
+        "define": true,
+        "d3": true,
+        "console": true
+    }
+}
